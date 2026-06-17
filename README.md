@@ -130,4 +130,4 @@ Tradeoffs & Known Gaps
 In-Memory File Parsing: For the scale of this timebox, file parsing occurs in server runtime memory. For production scale with massive 50k+ row exports, this would be refactored to stream files directly into an AWS S3 bucket and parse via an asynchronous background worker (AWS Lambda).
 
 Approximate Time Spent
-Total Time: ~14 hours.
+Total Time: ~10 hours.
