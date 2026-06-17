@@ -14,12 +14,10 @@ API Layer: tRPC / Server Actions ensuring end-to-end type safety from the databa
 
 Authentication: NextAuth.js (Auth.js) managing session states and scoping user context.
 
-Deployment: Infrastructure as Code (IaC) via SST (Serverless Stack) deployed natively on AWS (Lambda, API Gateway, RDS PostgreSQL).
-
 **📖 Product Judgment & Review Workflow**
 Instead of a generic CRUD table, this workspace implements a focused Dual-Stage Screening Workflow standard in systematic literature reviews:
 
-Title/Abstract Screening: Articles start as PENDING. Reviewers can quickly flag them as INCLUDE, EXCLUDE, or MAYBE.
+Title/Abstract Screening:  Reviewers can quickly flag them as INCLUDE, EXCLUDE, or MAYBE.
 
 Enrichment & Context: Reviewers can attach custom labels (e.g., Methodology Gap, Clinical Trial) and persist structured reviewer notes directly from the workspace view.
 
